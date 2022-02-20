@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+.input{
+width:350px;
+height:30px;
+text-align: center;
+}
+div{
+width:850px;
+height:700px;
+border:3px solid;
+background-color:rgb(221, 214, 214);
+border-radius:20px;
+align-content: center;
+}
+.button{
+width:80px;
+height:28px;
+border-radius:15px;
+
+}
+</style>
+</head>
+<body style="text-align:center;margin:80px;background-color:#074912;">
+<div>
+<form>
+<h1 style="font-family:Arial;">SURVEY FORM</h1>
+<h4 style="font-family:arial">Fill & Submit the form</h4>
+<marquee style="color:green;margin:7px;">Happy to have you here !!!</marquee> 
+<input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+<input class="input" type="text" placeholder="Enter Your Last Name"><br><br>
+<input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+<input class="input" type="text" placeholder="Contact Number"><br><br>
+<label style="font-family:Arial;">Designation</label>&nbsp;
+<select style="width:150px; height:30px;">
+<option>Student</option>
+<option>Working in a comoany</option>
+<option>Self employeed</option>
+</select><br><br>
+<label style="font-family:Arial;" >Select Gender:</label>
+<input type="radio" id="gender" value="Male" name="gender"><label for="gender" style="font-family:Arial;">Male</label>
+<input type="radio" id="gender" value="Female" name="gender"><label for="gender" style="font-family:Arial;">Female</label><br><br>
+<label for="bday" style="font-family:Arial;">Date Of Birth:</label>
+<input type="date" id="bday" name="birthdate" required><br><br>
+<input type="checkbox" id="check "name="check">I have filled all the fields Carefully<br><br>
+<input class="button" type="Submit" style="background-color:#1c5fb8;color:white;">
+<input class="button" type="reset">
+</form>
+</div>
+</body>
+</html>
